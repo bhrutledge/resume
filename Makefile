@@ -1,4 +1,4 @@
-TITLE='Brian H. Rutledge'
+TITLE=Brian H. Rutledge
 
 SRC_MD=$(wildcard *-resume.md)
 SRC_CSS=$(addprefix css/,import.css normalize.css style.css)
