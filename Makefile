@@ -13,7 +13,7 @@ html: $(HTML)
 pdf: $(PDF)
 
 $(CSS): $(SRC_CSS)
-	cat $^ >> $@
+	cat $^ > $@
 
 %.html: %.md $(CSS)
 	pandoc --to=html5 --css=$(CSS) --smart --standalone \

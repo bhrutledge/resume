@@ -1,4 +1,5 @@
 # Brian H. Rutledge
+Software Developer and Technologist  
 Arlington, MA
 
 617-955-7782  
@@ -23,15 +24,16 @@ of people working on solutions that will improve people's lives.
 
 ## Skills
 
-Adapting, Assimilating, Coding, Debugging, Editing, Explaining, Learning,
-Programming, Researching, Teaching, Testing, Training, Troubleshooting
+Adapting, Assimilating, Coding, Communicating, Debugging, Editing, Explaining,
+Learning, Programming, Researching, Teaching, Testing, Training,
+Troubleshooting
 
-*Software Development:* Python, SQL, Git, Linux/Unix
+**Software Development:** Python, SQL, Git, Linux/Unix, Test-Driven Development
 
-*Web Development:* Django, Flask, Selenium, PHP, HTML, CSS, JavaScript, jQuery,
+**Web Development:** Django, Flask, Selenium, PHP, HTML, CSS, JavaScript, jQuery,
 Responsive Design, Typography
 
-*Other:* Digital Photography
+**Other:** Digital Photography
 
 
 ## Experience
