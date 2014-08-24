@@ -1,22 +1,19 @@
-TITLE=Brian H. Rutledge
+TITLE:=Brian H. Rutledge
 
-SRC_MD=$(wildcard *-resume.md)
-SRC_CSS=$(addprefix css/,import.css normalize.css style.css)
+MD:=$(wildcard *-resume.md)
+CSS:=$(addprefix css/,import.css normalize.css style.css)
 
-CSS=resume.css
-HTML=$(SRC_MD:.md=.html)
-PDF=$(SRC_MD:.md=.pdf)
+HTML:=$(MD:.md=.html)
+PDF:=$(MD:.md=.pdf)
 
 all: html pdf
 css: $(CSS)
 html: $(HTML)
 pdf: $(PDF)
 
-$(CSS): $(SRC_CSS)
-	cat $^ > $@
-
 %.html: %.md $(CSS)
-	pandoc --to=html5 --css=$(CSS) --smart --standalone --section-divs \
+	pandoc --to=html5 --smart --standalone --section-divs \
+		$(addprefix --css=,$(CSS)) \
 		--variable=pagetitle:"$(TITLE)" --output=$@ $<
 
 %.pdf: %.html
@@ -24,4 +21,4 @@ $(CSS): $(SRC_CSS)
 		--title "$(TITLE)" $< $@
 
 clean:
-	rm -f $(CSS) *.html *.pdf
+	rm -f *.html *.pdf
