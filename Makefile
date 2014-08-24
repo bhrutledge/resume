@@ -16,7 +16,7 @@ $(CSS): $(SRC_CSS)
 	cat $^ > $@
 
 %.html: %.md $(CSS)
-	pandoc --to=html5 --css=$(CSS) --smart --standalone \
+	pandoc --to=html5 --css=$(CSS) --smart --standalone --section-divs \
 		--variable=pagetitle:"$(TITLE)" --output=$@ $<
 
 %.pdf: %.html

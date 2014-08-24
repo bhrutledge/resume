@@ -66,7 +66,7 @@ h2 {
     border-bottom: 1px solid #555;
 }
 
-h2#summary {
+#summary h2 {
     display: none;
 }
 
@@ -79,7 +79,7 @@ h3 {
     border-top: 1px dotted #AAA;
 }
 
-h2 + h3 {
+h2 + section h3 {
     margin-top: 0;
     padding-top: 0;
     border-top: none;
