@@ -10,16 +10,16 @@ Arlington, MA
 
 ## Summary
 
-I was an embedded software engineer for three years, then left the industry in
-2005 to pursue people-oriented work. I was fortunate to find it at a large bike
-shop, where I've enjoyed the flow of a variety roles, from selling bikes to
-administering software, all focused on connecting our customers with cycling. In
-my free time, I have expanded my software development skills by building
-responsive websites back-to-front.
-
 I enjoy learning software systems, using them to solve problems, and explaining
 their concepts and usage. I'm looking for opportunities to do that with a team
 of people working on solutions that will improve people's lives.
+
+I was an embedded software engineer for three years, then left the industry in
+2005 to pursue people-oriented work. I was fortunate to find it at a large bike
+shop, where I've enjoyed the flow of a variety roles, from selling bikes to
+administering software, all focused on connecting our customers with cycling.
+In my free time, I have expanded my software development skills by building
+responsive websites back-to-front.
 
 
 ## Skills
@@ -30,10 +30,8 @@ Troubleshooting
 
 **Software Development:** Python, SQL, Git, Linux/Unix, Test-Driven Development
 
-**Web Development:** Django, Flask, Selenium, PHP, HTML, CSS, JavaScript, jQuery,
-Responsive Design, Typography
-
-**Other:** Digital Photography
+**Web Development:** Django, Flask, Selenium, PHP, HTML, CSS, JavaScript,
+jQuery, Responsive Design, Typography
 
 
 ## Experience
@@ -43,9 +41,10 @@ Responsive Design, Typography
 #### Full Stack Web Developer
 2006-Present
 
-- Developed a [Flask web app][fl] for file processing
-- Developed [Django CMS applications][dj] and built a [band website][hth]
-- Developed a [PHP framework][php] for building brochure websites
+- Developed a [Flask web application][fl] to transform CSV files into HTML
+  tables with jQuery sorting and searching
+- Developed [Django applications][dj] and built a [band website][hth]
+- Developed a [PHP framework][php] for quickly building brochure websites
 - Designed, developed, and deployed static [brochure][wg] [websites][ess] with
   responsive layouts
 - Built a [personal website][bhr] with Pelican
@@ -70,9 +69,8 @@ Belmont, MA
 - Built and managed the [business website][ww] using the SmartEtailing CMS and
   developed a custom front-end with CSS and JavaScript
 - Built a [Squarespace website][pm] for the in-house frame builder
-- Established  and managed the relationship with an IT consulting firm, Project
-  Leadership Associates, to ensure timely and competent network management for
-  all locations
+- Established and managed the relationship with an IT consulting firm
+  to ensure timely and competent network management for all locations
 - Provided IT vendors with on-site troubleshooting and new project scopes
 - Provided staff training and support for all software systems
 
@@ -111,10 +109,10 @@ Dublin, OH
 #### Software Engineer
 2002–2005
 
-- Assumed sole development responsibility for a troubled network device, turning
-  it into a major new source of income
-- Designed, developed, and documented new features for network devices using 68k
-  Assembly, C, C++, Java, and Python
+- Assumed sole development responsibility for a troubled network device,
+  turning it into a major new source of income
+- Designed, developed, and documented new features for network devices using
+  68k Assembly, C, C++, Java, and Python
 - Designed and executed test plans for network devices
 - Completed several minor software releases as sole developer
 - Completed several major software releases on a small team
@@ -123,8 +121,8 @@ Dublin, OH
 #### Software Engineering Intern
 2001
 
-- Designed and developed a Perl web app for automated regression testing of
-  network devices
+- Designed and developed a Perl web application for automated regression
+  testing of network devices
 
 
 ### Nationwide Services Company
@@ -143,7 +141,7 @@ Columbus, OH
 #### System Operations Center Operator
 2000-2002
 
-- Responded to help requests in a Unix and Windows enviroment
+- Responded to help requests in a Unix and Windows environment
 - Designed and developed a graphic FAQ editor in Java
 
 #### Lab Consultant
@@ -155,8 +153,8 @@ Columbus, OH
 #### Grader
 1999-2000
 
-- Graded papers for introductory software development course in C++
-- Provided guidance during and outside of class for 35-40 students
+- Graded papers for an introductory software development course in C++
+- Provided guidance for 35-40 students during and outside of class
 
 
 ## Education
