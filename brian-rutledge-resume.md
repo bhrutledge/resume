@@ -1,5 +1,5 @@
 # Brian H. Rutledge
-Software Developer and Technologist  
+Software Solutionist  
 Arlington, MA
 
 617-955-7782  
@@ -41,13 +41,15 @@ jQuery, Responsive Design, Typography
 #### Full Stack Web Developer
 2006-Present
 
-- Developed a [Flask web application][fl] to transform CSV files into HTML
-  tables with jQuery sorting and searching
-- Developed [Django applications][dj] and built a [band website][hth]
-- Developed a [PHP framework][php] for quickly building brochure websites
-- Designed, developed, and deployed static [brochure][wg] [websites][ess] with
-  responsive layouts
-- Built a [personal website][bhr] with Pelican
+- Built a [Flask web application][fl] to transform CSV files into searchable
+  and sortable tables, enabling a small retailer to quickly analyze sales
+  reports
+- Built [my band's website][hth] using custom [Django applications][dj]
+- Built [my personal website][bhr] with the Pelican Python framework
+- Built a [musician's website][es] with the Perch PHP framework
+- Developed a [PHP framework][php] for quickly building [brochure][cu]
+  [websites][ssr]
+- Built single-page [brochure][wg] [websites][ess] with responsive layouts
 
 
 ### Belmont Wheelworks
@@ -60,7 +62,6 @@ Belmont, MA
   for appointment booking
 - Configured and managed Google Apps for email, calendars, documents, and
   intranet
-- Managed a major upgrade of the CounterPoint retail management software
 - Wrote Python scripts to sync store inventory to website catalog
 - Wrote SQL queries and Python scripts to generate custom reports of customers
   and inventory
@@ -69,6 +70,7 @@ Belmont, MA
 - Built and managed the [business website][ww] using the SmartEtailing CMS and
   developed a custom front-end with CSS and JavaScript
 - Built a [Squarespace website][pm] for the in-house frame builder
+- Managed a major upgrade of the CounterPoint retail management software
 - Established and managed the relationship with an IT consulting firm
   to ensure timely and competent network management for all locations
 - Provided IT vendors with on-site troubleshooting and new project scopes
@@ -169,10 +171,13 @@ Columbus, OH
 
 
 [fl]: http://github.com/bhrutledge/dsvbrowser
-[dj]: http://github.com/bhrutledge/debugged-django
 [hth]: http://github.com/bhrutledge/hallelujahthehills.com
-[php]: http://github.com/bhrutledge/debugged-php
+[dj]: http://github.com/bhrutledge/debugged-django
 [bhr]: http://github.com/bhrutledge/bhrutledge.com
+[es]: http://ericstepanian.com
+[php]: http://github.com/bhrutledge/debugged-php
+[cu]: http://cyclingumbria.com
+[ssr]: http://soulshoprecording.com
 [wg]: http://westgtrivianight.com
 [ess]: http://elizabethschmerlingscholarship.org
 [ww]: http://wheelworks.com
