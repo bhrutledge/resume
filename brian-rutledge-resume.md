@@ -1,5 +1,5 @@
 # Brian H. Rutledge
-Software Solutionist  
+Software Developer & Technologist  
 Arlington, MA
 
 617-955-7782  
@@ -76,22 +76,14 @@ Belmont, MA
 - Provided IT vendors with on-site troubleshooting and new project scopes
 - Provided staff training and support for all software systems
 
-#### Bicycle Fitter
-2009–Present
+#### Bicycle Fitter, Buyer, Salesperson
+2006–Present
 
 - Improved clients’ riding position through bicycle adjustments and coaching
 - Completed bicycle fitting certification programs from SBCU, SICI, and Retül
-
-#### Buyer
-2006–Present
-
-- Ordered and stocked electronics, saddles, nutrition, and media
-- Trained staff and customers on electronics
-
-#### Salesperson
-2006–Present
-
 - Managed customer relationships by email, phone, and appointment
+- Trained staff and customers on electronics
+- Ordered and stocked electronics, saddles, nutrition, and media
 - Sold bicycles, clothing, accessories, and parts
 
 
@@ -109,46 +101,28 @@ Cambridge, MA
 Dublin, OH
 
 #### Software Engineer
-2002–2005
+2001–2005
 
 - Assumed sole development responsibility for a troubled network device,
   turning it into a major new source of income
 - Designed, developed, and documented new features for network devices using
   68k Assembly, C, C++, Java, and Python
+- Designed and developed a Perl web application for automated regression
+  testing of network devices
 - Designed and executed test plans for network devices
 - Completed several minor software releases as sole developer
 - Completed several major software releases on a small team
 - Diagnosed and addressed field issues in conjunction with customer service
 
-#### Software Engineering Intern
-2001
-
-- Designed and developed a Perl web application for automated regression
-  testing of network devices
-
-
-### Nationwide Services Company
-Columbus, OH
-
-#### Unix System Administrator Intern
-2000
-
-- Assisted with server maintenance and testing third-party software
-- Studied Perl, the Unix environment, and system administration tools
-
 
 ### The Ohio State University
 Columbus, OH
 
-#### System Operations Center Operator
+#### System Operations Center Operator, Lab Consultant
 2000-2002
 
 - Responded to help requests in a Unix and Windows environment
 - Designed and developed a graphic FAQ editor in Java
-
-#### Lab Consultant
-2000
-
 - Provided programming and Unix assistance to students in labs of 50-100
   computers
 
