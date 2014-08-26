@@ -2,7 +2,7 @@ TITLE:=Brian H. Rutledge
 
 MD:=$(wildcard *-resume.md)
 CSS:=$(addprefix css/,import.css normalize.css style.css)
-FOOTER:=footer.html
+FOOTER:=include/footer.html
 
 HTML:=$(MD:.md=.html)
 PDF:=$(MD:.md=.pdf)
@@ -20,7 +20,7 @@ pdf: $(PDF)
 %.pdf: %.html $(FOOTER)
 	wkhtmltopdf --quiet --print-media-type --page-size Letter \
 		--margin-top 15 --margin-right 15 --margin-bottom 20 --margin-left 15 \
-		--footer-html footer.html --footer-spacing 5 \
+		--footer-html $(FOOTER) --footer-spacing 5 \
 		--title "$(TITLE)" $< $@
 
 clean:
