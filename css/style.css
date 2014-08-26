@@ -145,11 +145,6 @@ a:hover, a:active {
         text-align: right;
         margin-top: -6em;
     }
-
-    h4 + p {
-        text-align: right;
-        margin-top: -1.5em;
-    }
 }
 
 /* TODO: Columns on wide screens and print */
@@ -169,7 +164,6 @@ a:hover, a:active {
     body {
         font-family: Tahoma, sans-serif;
         max-width: none;
-        padding: none;
     }
 
     /* TODO: Ignored by WebKit
@@ -194,11 +188,6 @@ a:hover, a:active {
     h1 + p + p {
         text-align: right;
         margin-top: -6em;
-    }
-
-    h4 + p {
-        text-align: right;
-        margin-top: -1.5em;
     }
 
     /* TODO: Footnote links */
