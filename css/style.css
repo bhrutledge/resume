@@ -75,14 +75,19 @@ h3 {
     font-size: 1.2em; /* 20px */
     line-height: 1.2;
     margin: 1.2em 0 0;
-    padding-top: 1.2em;
-    border-top: 1px dotted #AAA;
 }
 
 h2 + section h3 {
     margin-top: 0;
     padding-top: 0;
-    border-top: none;
+}
+
+.level3 {
+    border-bottom: 1px dotted #AAA;
+}
+
+.level3:last-child {
+    border-bottom: none;
 }
 
 h4 {
@@ -180,6 +185,11 @@ a:hover, a:active {
         text-align: right;
         margin-top: -6em;
     }
+
+    .level3 {
+        page-break-inside: avoid;
+    }
+
 
     /* TODO: Footnote links */
 }

@@ -16,10 +16,10 @@ of people working on solutions that will improve people's lives.
 
 I was an embedded software engineer for three years, then left the industry in
 2005 to pursue people-oriented work. I was fortunate to find it at a large bike
-shop, where I've enjoyed the flow of a variety roles, from selling bikes to
-administering software, all focused on connecting our customers with cycling.
-In my free time, I have expanded my software development skills by building
-responsive websites back-to-front.
+shop, where I've enjoyed the flow of a variety roles, from selling and fitting
+bikes to writing and administering software, all focused on connecting our
+customers with cycling.  In my free time, I have expanded my software
+development skills by building responsive websites back-to-front.
 
 
 ## Skills
@@ -30,7 +30,7 @@ Troubleshooting
 
 **Software Development:** Python, SQL, Git, Linux/Unix, Test-Driven Development
 
-**Web Development:** Django, Flask, Selenium, PHP, HTML, CSS, JavaScript,
+**Web Development:** Django, Flask, Selenium, HTML, CSS, Markdown, JavaScript,
 jQuery, Responsive Design, Typography
 
 
@@ -58,33 +58,39 @@ Belmont, MA
 #### IT Operations Manager
 2007–Present
 
+- Built and managed the [business website][ww] using the SmartEtailing CMS, and
+  developed a custom front-end with CSS and JavaScript
+- Wrote Python scripts to synchronize the store's inventory to the website
+  catalog, resulting in increased customer inquiries and foot traffic
+- Wrote SQL queries and Python scripts to generate custom reports of customers
+  and inventory, streamlining tasks such as mailing list generation and barcode
+  management
+- Developed a physical count procedure and programmed a handheld data collector
+  to improve inventory accuracy
+- Built a [Squarespace website][pm] for the in-house frame builder
 - Configured and managed the MindBody web application to replace a paper binder
   for appointment booking
-- Configured and managed Google Apps for email, calendars, documents, and
-  intranet
-- Wrote Python scripts to sync store inventory to website catalog
-- Wrote SQL queries and Python scripts to generate custom reports of customers
-  and inventory
-- Developed a physical count procedure and data collection utility to improve
-  inventory accuracy
-- Built and managed the [business website][ww] using the SmartEtailing CMS and
-  developed a custom front-end with CSS and JavaScript
-- Built a [Squarespace website][pm] for the in-house frame builder
+- Configured and managed Google Apps for email, calendars, and documents
+- Maintained a Google Site for the company intranet, documenting numerous
+  procedures and policies, and enabling easy viewing of schedules and calendars
 - Managed a major upgrade of the CounterPoint retail management software
 - Established and managed the relationship with an IT consulting firm
   to ensure timely and competent network management for all locations
-- Provided IT vendors with on-site troubleshooting and new project scopes
+- Provided IT vendors with on-site troubleshooting, hardware installation,
+  and new project scopes, resulting in expedited solutions to problems and
+  fewer billable support hours
 - Provided staff training and support for all software systems
 
 #### Bicycle Fitter, Buyer, Salesperson
 2006–Present
 
-- Improved clients’ riding position through bicycle adjustments and coaching
+- Installed, replaced, and adjusted bicycle components and instructed clients
+  on pedal technique and posture, resulting in a more comfortable, efficient,
+  and safe experience
 - Completed bicycle fitting certification programs from SBCU, SICI, and Retül
 - Managed customer relationships by email, phone, and appointment
-- Trained staff and customers on electronics
 - Ordered and stocked electronics, saddles, nutrition, and media
-- Sold bicycles, clothing, accessories, and parts
+- Trained staff and customers on electronics
 
 
 ### Darwin's Ltd.
