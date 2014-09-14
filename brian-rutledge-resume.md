@@ -1,5 +1,5 @@
 # Brian H. Rutledge
-Software Developer & Technologist  
+Software Solutions  
 Arlington, MA
 
 617-955-7782  
@@ -18,7 +18,7 @@ I was an embedded software engineer for three years, then left the industry in
 2005 to pursue people-oriented work. I was fortunate to find it at a large bike
 shop, where I've enjoyed the flow of a variety roles, from selling and fitting
 bikes to writing and administering software, all focused on connecting our
-customers with cycling.  In my free time, I have expanded my software
+customers with cycling. In my free time, I have expanded my software
 development skills by building responsive websites back-to-front.
 
 
@@ -80,6 +80,8 @@ Belmont, MA
   and new project scopes, resulting in expedited solutions to problems and
   fewer billable support hours
 - Provided staff training and support for all software systems
+- Designed web and print forms for collecting customer questions and
+  information
 
 #### Bicycle Fitter, Buyer, Salesperson
 2006–Present
