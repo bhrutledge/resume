@@ -28,7 +28,8 @@ Adapting, Assimilating, Coding, Communicating, Debugging, Editing, Explaining,
 Learning, Programming, Researching, Teaching, Testing, Training,
 Troubleshooting
 
-**Software Development:** Python, SQL, Git, Linux/Unix, Test-Driven Development
+**Software Development:** Python, SQL, Git, Travis, Linux/Unix, Test-Driven
+Development
 
 **Web Development:** Django, Flask, Selenium, HTML, CSS, Markdown, JavaScript,
 jQuery, Responsive Design, Typography
