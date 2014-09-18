@@ -32,7 +32,7 @@ Troubleshooting
 Development
 
 **Web Development:** Django, Flask, Selenium, HTML, CSS, Markdown, JavaScript,
-jQuery, Responsive Design, Typography
+jQuery, Apache, Responsive Design, Typography
 
 
 ## Experience
@@ -51,6 +51,10 @@ jQuery, Responsive Design, Typography
 - Developed a [PHP framework][php] for quickly building [brochure][cu]
   [websites][ssr]
 - Built single-page [brochure][wg] [websites][ess] with responsive layouts
+- Deployed websites to WebFaction and other shared hosting services, upgrading
+  and installing software as needed
+- Managed my band's mailing list using GNU Mailman, then migrated to MailChimp
+  to improve usability
 
 
 ### Belmont Wheelworks
