@@ -19,7 +19,7 @@ pdf: $(PDF)
 
 %.pdf: %.html $(FOOTER)
 	wkhtmltopdf --quiet --print-media-type --page-size Letter \
-		--margin-top 15 --margin-right 15 --margin-bottom 20 --margin-left 15 \
+		--margin-top 15 --margin-right 25 --margin-bottom 20 --margin-left 25 \
 		--footer-html $(FOOTER) --footer-spacing 5 \
 		--title "$(TITLE)" $< $@
 

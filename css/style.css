@@ -83,11 +83,11 @@ h2 + section h3 {
 }
 
 .level3 {
-    border-bottom: 1px dotted #AAA;
+    border-top: 1px dotted #555;
 }
 
-.level3:last-child {
-    border-bottom: none;
+h2 + .level3 {
+    border-top: none;
 }
 
 h4 {
@@ -145,10 +145,34 @@ a:hover, a:active {
     }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 480px), print {
     h1 + p + p {
         text-align: right;
         margin-top: -6em;
+    }
+}
+
+@media only screen and (min-width: 768px), print {
+    .level3 {
+        text-align: right;
+    }
+
+    .level4 {
+        text-align: left;
+    }
+
+    h3 {
+        font-size: 1em; /* 20px */
+        line-height: 1.5;
+        margin: 1.5em 0 0;
+    }
+
+    h3 + section {
+        margin-top: -3em;
+    }
+
+    h3 + p + section {
+        margin-top: -4.5em;
     }
 }
 
@@ -181,15 +205,12 @@ a:hover, a:active {
         widows: 3;
     }
 
-    h1 + p + p {
-        text-align: right;
-        margin-top: -6em;
-    }
-
-    .level3 {
+    .level3,
+    .level3 li {
         page-break-inside: avoid;
     }
 
+    .level3 {
 
     /* TODO: Footnote links */
 }
