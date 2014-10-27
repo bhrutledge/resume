@@ -12,8 +12,8 @@ Arlington, MA
 
 I have over 12 years of experience in learning software systems, using them to
 solve problems, and explaining their concepts and usage. I'm looking for
-opportunities to do that with a team of people working towards a sustainable
-future.
+opportunities to exercise those skills with a team of people working towards a
+sustainable future.
 
 I was an embedded software engineer for three years, then left the industry in
 2005 to pursue people-oriented work. I was fortunate to find it at a large bike
