@@ -10,17 +10,17 @@ Arlington, MA
 
 ## Summary
 
-I have been writing and using software to solve problems for over 12 years.
-I enjoy studying software systems and explaining how they work. I'm
-looking for opportunities to exercise those skills with a team of people
-working towards a sustainable future.
+I have been writing and using software to solve problems for over 12 years. I
+enjoy studying software systems and explaining how they work.
 
 I was an embedded software engineer for three years, then left the industry in
 2005 to pursue people-oriented work. I was fortunate to find it at a large bike
-shop, where I've enjoyed the flow of a variety roles, from selling and fitting
-bikes to writing and administering software, all focused on connecting our
-customers with cycling. In my free time, I have expanded my software
-development skills by building responsive websites back-to-front.
+shop, where I enjoyed the flow of a variety roles, from selling bikes to
+administering software, all focused on connecting customers with cycling. In my
+free time, I have expanded my software development skills by building
+responsive websites back-to-front. In 2014, I made the switch to professional
+web development, with a focus on exercising my skills with like-minded people
+working to speed the adoption of renewable energy.
 
 
 ## Skills
@@ -34,6 +34,16 @@ jQuery, Apache, Responsive Design, Typography, Photography.
 
 
 ## Experience
+
+### EnergySage, Inc.
+Cambridge, MA
+
+#### Web Developer
+2014-Present
+
+- Back-end development on a Django-based online marketplace for solar panel
+  installation
+
 
 ### Freelance
 
@@ -59,7 +69,7 @@ jQuery, Apache, Responsive Design, Typography, Photography.
 Belmont, MA
 
 #### IT Operations Manager
-2007–Present
+2007–2014
 
 - Built and managed the [business website][ww] using the SmartEtailing CMS, and
   developed a custom front-end with CSS and JavaScript
@@ -87,7 +97,7 @@ Belmont, MA
   information
 
 #### Bicycle Fitter, Buyer, Salesperson
-2006–Present
+2006–2014
 
 - Installed, replaced, and adjusted bicycle components and instructed clients
   on pedal technique and posture, resulting in a more comfortable, efficient,
