@@ -14,6 +14,7 @@ pdf: $(PDF)
 
 %.html: %.md $(CSS)
 	pandoc --to=html5 --smart --standalone --section-divs \
+		--email-obfuscation=javascript \
 		$(addprefix --css=,$(CSS)) \
 		--variable=pagetitle:"$(TITLE)" --output=$@ $<
 
