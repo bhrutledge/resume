@@ -4,45 +4,62 @@ Arlington, MA
 
 617-955-7782  
 <brian@bhrutledge.com>  
-<http://linkedin.com/in/bhrutledge>  
-<http://github.com/bhrutledge>
-
+<http://github.com/bhrutledge>  
+<http://linkedin.com/in/bhrutledge>
 
 ## Summary
 
-I have been writing and using software to solve problems for over 12 years. I
-enjoy studying software systems and explaining how they work.
-
-I was an embedded software engineer for three years, then left the industry in
+I have been writing and using software to solve problems for over 15 years. I
+was an embedded software engineer for three years, then left the industry in
 2005 to pursue people-oriented work. I was fortunate to find it at a large bike
 shop, where I enjoyed the flow of a variety roles, from selling bikes to
-administering software, all focused on connecting customers with cycling. In my
-free time, I have expanded my software development skills by building
-responsive websites back-to-front. In 2014, I made the switch to professional
-web development, with a focus on exercising my skills with like-minded people
-working to speed the adoption of renewable energy.
+administering software. In 2014, I made the switch to professional web
+development, with a focus on exercising my skills with like-minded people
+working to speed the adoption of renewable energy. In my free time, I have
+expanded my software development skills by building responsive websites
+back-to-front. I enjoy studying software systems and explaining how they work.
 
 
 ## Skills
 
-Adapting, Assimilating, Coding, Communicating, Debugging, Editing, Explaining,
-Programming, Researching, Teaching, Testing, Troubleshooting.
-**Software Development:** Python, SQL, Git, Travis, Linux/Unix, Test-Driven
-Development, Virtual Machines.
-**Web Development:** Django, Flask, Selenium, HTML, CSS, Markdown, JavaScript,
-jQuery, Apache, Responsive Design, Typography, Photography.
+Adapting, Analyzing, Assimilating, Coding, Communicating, Debugging, Editing,
+Explaining, Programming, Researching, Teaching, Testing, Troubleshooting.
+**Software Development:** Python, JavaScript, SQL, Git, Linux/Unix, Data
+Engineering, Test-Driven Development, Virtual Machines, Containers.
+**Web Development:** Django, Flask, REST APIs, Celery, Selenium, jQuery,
+Backbone, D3, Mapping, HTML, SASS, CSS, Markdown, Deployment, Responsive Design,
+Typography, Photography.
 
 
 ## Experience
 
 ### EnergySage, Inc.
-Cambridge, MA
+Boston, MA
 
-#### Web Developer
+#### Developer
 2014-Present
 
-- Back-end development on a Django-based online marketplace for solar panel
-  installation
+- Full-stack development for an online marketplace for solar panel installation,
+  built on Django and deployed on AWS
+- Designed, developed, and maintained a Django application for pushing consumer
+  data to solar installer CRMs, e.g. Salesforce
+- Integrated with the HubSpot API to sync our user database, enabling marketing
+  and sales workflows
+- Provided on-demand and periodic data exports for staff, partners, installers,
+  and media using SQL, Pandas, and Jupyter Notebook
+- Developed a revamp of the core consumer experience of comparing quotes online,
+  using Backbone and jQuery
+- Developed the [primary registration page][start] for consumers, using Pandas
+  and Leaflet
+- Developed an [interactive map][solar] of solar data for states, using Pandas
+  and D3
+- Built HubSpot workflows, emails, and landing pages to automate business
+  processes and support marketing efforts
+- Integrated the Django CMS project to streamline content creation and edits,
+  and instructed staff on its usage
+- Regularly participated in and influenced project planning and design
+  discussions
+- Provided tech support for networking, phones, and Google Apps
 
 
 ### Freelance
@@ -50,19 +67,16 @@ Cambridge, MA
 #### Full Stack Web Developer
 2006-Present
 
-- Built a [Flask & jQuery web application][fl] to transform tab-delimited files
+- Built [my band's website][hth] using Django
+- Built a [web application][dsv] using Flask to transform tab-delimited files
   into searchable and sortable tables, enabling a small retailer to quickly
   analyze sales reports
-- Built [my band's website][hth] using custom [Django applications][dj]
 - Built [my personal website][bhr] with the Pelican Python framework
-- Built a [musician's website][es] with the Perch PHP framework
 - Developed a [PHP framework][php] for quickly building [brochure][cu]
   [websites][ssr]
-- Built single-page [brochure][wg] [websites][ess] with responsive layouts
+- Built single-page [brochure websites][ess] with responsive layouts
 - Deployed websites to Linux shared hosting services, installing software as
   needed
-- Managed my band's mailing list using GNU Mailman, then migrated to MailChimp
-  to improve usability
 
 
 ### Belmont Wheelworks
@@ -164,15 +178,14 @@ Columbus, OH
 
 
 
-[fl]: http://github.com/bhrutledge/dsvbrowser
-[hth]: http://github.com/bhrutledge/hallelujahthehills.com
-[dj]: http://github.com/bhrutledge/debugged-django
+[start]: https://www.energysage.com/market/start/?zip_code=02474
+[solar]: http://www.energysage.com/solar-panels/ma/
+[dsv]: http://github.com/bhrutledge/dsvbrowser
+[hth]: http://github.com/bhrutledge/jahhills.com
 [bhr]: http://github.com/bhrutledge/bhrutledge.com
-[es]: http://ericstepanian.com
 [php]: http://github.com/bhrutledge/debugged-php
 [cu]: http://cyclingumbria.com
 [ssr]: http://soulshoprecording.com
-[wg]: http://westgtrivianight.com
 [ess]: http://elizabethschmerlingscholarship.org
 [ww]: http://wheelworks.com
 [pm]: http://peter-mooney.com
