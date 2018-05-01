@@ -25,10 +25,10 @@ back-to-front. I enjoy studying software systems and explaining how they work.
 Adapting, Analyzing, Assimilating, Coding, Communicating, Debugging, Editing,
 Explaining, Programming, Researching, Teaching, Testing, Troubleshooting.
 **Software Development:** Python, JavaScript, SQL, Git, Linux/Unix, Data
-Engineering, Test-Driven Development, Virtual Machines, Containers.
-**Web Development:** Django, Flask, REST APIs, Celery, Selenium, jQuery,
-Backbone, D3, Mapping, HTML, SASS, CSS, Markdown, Deployment, Responsive Design,
-Typography, Photography.
+Engineering, Test-Driven Development, Virtual Machines, Docker.
+**Web Development:** Django, Flask, REST APIs, Celery, Selenium, Vue, Webpack,
+jQuery, Backbone, D3, Mapping, HTML, SASS, CSS, Markdown, Deployment, 
+Responsive Design, Typography, Photography.
 
 
 ## Experience
