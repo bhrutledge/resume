@@ -1,5 +1,5 @@
 # Brian H. Rutledge
-Software Solutions  
+Software Engineer  
 Arlington, MA
 
 617-955-7782  
@@ -9,37 +9,41 @@ Arlington, MA
 
 ## Summary
 
-I have been writing and using software to solve blems for over 15 years. I was an embedded software engineer for three years, then left the industry in 2005 to pursue people-oriented work. I was fortunate to find it at a large bike shop, where I enjoyed the flow of a variety roles, from selling bikes to administering software. In 2014, I made the switch to professional web development, with a focus on exercising my skills with like-minded people working to speed the adoption of renewable energy. In my free time, I have expanded my software development skills by building responsive websites back-to-front. I enjoy studying software systems and explaining how they work.
+I have been writing and using software to solve problems for over 15 years. I was an embedded software engineer for three years, then left the industry in 2005 to pursue people-oriented work. I was fortunate to find it at a large bike shop, where I enjoyed the flow of a variety roles, from selling bikes to administering software. In 2014, I made the switch to professional web development, with a focus on exercising my skills with like-minded people working to speed the adoption of renewable energy. In my free time, I have expanded my software development skills by building responsive websites back-to-front. I enjoy studying software systems and explaining how they work.
 
 
-## Skills
+## Skills and Technologies
 
 Adapting, Analyzing, Assimilating, Coding, Communicating, Debugging, Editing, Explaining, Programming, Researching, Teaching, Testing, Troubleshooting
 
 **Software Development:** Python, JavaScript, SQL, Git, Linux/Unix, Data Engineering, Test-Driven Development, Virtual Machines, Docker
 
-**Web Development:** Django, Flask, REST APIs, Celery, Selenium, Vue, Webpack, jQuery, Backbone, D3, Mapping, HTML, SASS, CSS, Markdown, Deployment, Responsive Design, Typography, Photography
+**Web Development:** Django, Flask, REST APIs, Celery, Selenium, Vue, Vuex, Webpack, jQuery, Backbone, D3, Charts, Maps, HTML, SASS, CSS, BEM, Bootstrap, Markdown, Deployment, Responsive Design, Typography, Photography
 
 
 ## Experience
 
 ### EnergySage, Inc.
-Boston, MA
+Boston, MA  
+*World's first and largest online marketplace for solar panel installation, built on Django and deployed on AWS*
 
 #### Developer
 2014-Present
 
-- Full-stack development for an online marketplace for solar panel installation, built on Django and deployed on AWS
+- Improved documentation, dependency management, and database fixtures for Django development environment
+- Advocated for, coordinated, and contributed to the adoption of the Vue framework for developing a complex single-page app to implement a new consumer experience
+- Designed and developed a Django REST Framework API, admin interface, and Vue front-end for consumers to browse solar loans
 - Designed, developed, and maintained a Django application for pushing consumer data to solar installer CRMs, e.g. Salesforce
+- Integrated the Django CMS project to streamline content creation and edits, and instructed staff on its usage
 - Integrated with the HubSpot API to sync our user database, enabling marketing and sales workflows
-- Provided on-demand and periodic data exports for staff, partners, installers, and media using SQL, Pandas, and Jupyter Notebook
 - Developed a revamp of the core consumer experience of comparing quotes online, using Backbone and jQuery
 - Developed the [primary registration page][start] for consumers, using Pandas and Leaflet
-- Developed an [interactive map][solar] of solar data for states, using Pandas and D3
+- Developed [interactive maps and tables][solar] of solar data for states, using Pandas and D3
+- Developed self-serve, periodic, and on-demand data exports for staff, partners, installers, and media using SQL and Pandas
+- Built and maintained a GitHub repository for reproducible data engineering and analysis with the Jupyter Notebook and related Python libraries
+- Regularly participated in and influenced project planning & design discussions with stakeholders
 - Built HubSpot workflows, emails, and landing pages to automate business processes and support marketing efforts
-- Integrated the Django CMS project to streamline content creation and edits, and instructed staff on its usage
-- Regularly participated in and influenced project planning and design discussions
-- Provided tech support for networking, phones, and Google Apps
+- Provided tech support and vendor coordination for networking, phones, and Google Apps
 
 
 ### Freelance
@@ -56,7 +60,8 @@ Boston, MA
 
 
 ### Belmont Wheelworks
-Belmont, MA
+Belmont, MA  
+*Bicycle sales and service, catering to all levels of cyclists in greater Boston*
 
 #### IT Operations Manager
 2007–2014
@@ -85,6 +90,7 @@ Belmont, MA
 
 ### Darwin's Ltd.
 Cambridge, MA
+*Indepedent coffee and sandwich shop serving Harvard Square*
 
 #### Buyer, Sandwich Maker, Barista
 2005–2006
@@ -94,7 +100,8 @@ Cambridge, MA
 
 
 ### Applied Innovation Inc.
-Dublin, OH
+Dublin, OH  
+*Network management hardware and software for the telecommunications industry*
 
 #### Software Engineer
 2001–2005
@@ -119,7 +126,7 @@ Columbus, OH
 #### Grader
 1999-2000
 
-- Graded papers for an introductory software development course in C++
+- Graded papers for honors introductory software development course in C++
 - Provided guidance for 35-40 students during and outside of class
 
 
