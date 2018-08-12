@@ -13,10 +13,12 @@ html: $(HTML)
 pdf: $(PDF)
 
 %.html: %.md $(CSS)
-	pandoc --to=html5 --smart --standalone --section-divs \
+	pandoc --from=markdown+smart \
+		--to=html5 --standalone --section-divs \
 		--email-obfuscation=javascript \
 		$(addprefix --css=,$(CSS)) \
-		--variable=pagetitle:"$(TITLE)" --output=$@ $<
+		--variable=pagetitle:"$(TITLE)" \
+		--output=$@ $<
 
 %.pdf: %.html $(FOOTER)
 	wkhtmltopdf --quiet --print-media-type --page-size Letter \
