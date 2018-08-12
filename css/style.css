@@ -58,6 +58,7 @@ h1 {
     margin: 0;
 }
 
+/* Section */
 h2 {
     font-weight: normal;
     font-size: 1.5em; /* 24px */
@@ -70,29 +71,45 @@ h2 {
     display: none;
 }
 
-h3 {
-    font-weight: normal;
-    font-size: 1.2em; /* 20px */
-    line-height: 1.2;
-    margin: 1.2em 0 0;
+/* Company */
+/* TODO: border-bottom? */
+.level3:not(:first-of-type) {
+    border-top: 1px dotted #555;
 }
 
+/* Company name */
+h3 {
+    font-size: 1em;
+    margin: 1.5em 0 0;
+}
+
+/* First company name */
 h2 + section h3 {
     margin-top: 0;
     padding-top: 0;
 }
 
-.level3 {
-    border-top: 1px dotted #555;
+/* City */
+h3 + p {
+    margin-top: -1.5em;
+    text-align: right;
 }
 
-h2 + .level3 {
-    border-top: none;
+/* Description */
+h3 + p + p {
+    margin-top: -1.5em;
 }
 
+/* Role */
 h4 {
     font-size: 1em; /* 16px */
     margin: 1.5em 0 0;
+}
+
+/* Dates */
+h4 + p {
+    margin-top: -1.5em;
+    text-align: right;
 }
 
 small {
@@ -146,6 +163,7 @@ a:hover, a:active {
 }
 
 @media only screen and (min-width: 480px), print {
+    /* Contact info */
     h1 + p + p {
         text-align: right;
         margin-top: -6em;
@@ -153,27 +171,6 @@ a:hover, a:active {
 }
 
 @media only screen and (min-width: 768px), print {
-    .level3 {
-        text-align: right;
-    }
-
-    .level4 {
-        text-align: left;
-    }
-
-    h3 {
-        font-size: 1em; /* 20px */
-        line-height: 1.5;
-        margin: 1.5em 0 0;
-    }
-
-    h3 + section {
-        margin-top: -3em;
-    }
-
-    h3 + p + section {
-        margin-top: -4.5em;
-    }
 }
 
 /* TODO: Columns on wide screens and print */
@@ -205,13 +202,12 @@ a:hover, a:active {
         widows: 3;
     }
 
+    /* TODO: No page break after h2 */
+
     .level3,
     .level3 li {
         page-break-inside: avoid;
     }
-
-    .level3 {
-
+    
     /* TODO: Footnote links */
 }
-

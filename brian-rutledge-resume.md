@@ -5,7 +5,6 @@ Arlington, MA
 617-955-7782  
 <brian@bhrutledge.com>  
 <http://github.com/bhrutledge>  
-<http://linkedin.com/in/bhrutledge>
 
 ## Summary
 
@@ -18,17 +17,19 @@ Adapting, Analyzing, Assimilating, Coding, Communicating, Debugging, Documenting
 
 **Software Development:** Python, JavaScript, SQL, Git, Linux/Unix, Data Engineering, Test-Driven Development, Virtual Machines, Docker
 
-**Web Development:** Django, Flask, REST APIs, Celery, Selenium, Vue, Vuex, Webpack, jQuery, Backbone, D3, Charts, Maps, HTML, SASS, CSS, BEM, Bootstrap, Markdown, Deployment, Responsive Design, Typography, Photography
+**Web Development:** Django, Flask, REST APIs, Celery, Selenium, Vue, Vuex, Webpack, jQuery, Backbone, D3, Charts, Maps, HTML, SASS, CSS, BEM, Bootstrap, Markdown, AWS, Deployment, Responsive Design, Typography, Photography
 
 
 ## Professional Experience
 
-### EnergySage, Inc.
+### EnergySage
+
 Boston, MA
 
-*The first and largest online marketplace for solar panel installation, built on Django and deployed on AWS*
+The world's first and largest online marketplace for solar panel installation
 
-#### Developer
+#### Full Stack Web Developer
+
 2014-Present
 
 - Designed and developed a Django REST Framework API, admin interface, and Vue front-end for consumers to browse and filter solar loans, with click-through monetization
@@ -56,6 +57,7 @@ Boston, MA
 ### Freelance
 
 #### Full Stack Web Developer
+
 2006-Present
 
 - Built [my band's website][hth] using Django
@@ -67,11 +69,13 @@ Boston, MA
 
 
 ### Belmont Wheelworks
+
 Belmont, MA
 
-*Bicycle sales and service, catering to all levels of cyclists in greater Boston*
+Bicycle sales and service, catering to all levels of cyclists in greater Boston
 
 #### IT Operations Manager
+
 2007–2014
 
 - Built and managed the [business website][ww] using the SmartEtailing CMS, and developed a custom front-end with CSS and JavaScript
@@ -89,6 +93,7 @@ Belmont, MA
 - Designed web and print forms for collecting customer questions and information
 
 #### Bicycle Fitter, Buyer, Salesperson
+
 2006–2014
 
 - Installed, replaced, and adjusted bicycle components and instructed clients on pedal technique and posture, resulting in a more comfortable, efficient, and safe experience
@@ -98,11 +103,13 @@ Belmont, MA
 
 
 ### Darwin's Ltd.
+
 Cambridge, MA
 
-*Indepedent coffee and sandwich shop serving Harvard Square*
+Independent coffee and sandwich shop serving Harvard Square
 
 #### Buyer, Sandwich Maker, Barista
+
 2005–2006
 
 - Ordered and stocked raw ingredients and paper goods
@@ -110,11 +117,13 @@ Cambridge, MA
 
 
 ### Applied Innovation Inc.
+
 Dublin, OH
 
-*Network management hardware and software for the telecommunications industry*
+Network management hardware and software for the telecommunications industry
 
 #### Software Engineer
+
 2001–2005
 
 - Assumed sole development responsibility for a troubled network device, turning it into a major source of income
@@ -125,9 +134,11 @@ Dublin, OH
 
 
 ### The Ohio State University
+
 Columbus, OH
 
 #### System Operations Center Operator, Lab Consultant
+
 2000-2002
 
 - Responded to help requests in a Unix and Windows environment
@@ -135,6 +146,7 @@ Columbus, OH
 - Provided programming and Unix assistance to students in labs of 50-100 computers
 
 #### Grader
+
 1999-2000
 
 - Graded papers for honors introductory software development course in C++
@@ -144,9 +156,11 @@ Columbus, OH
 ## Education
 
 ### The Ohio State University
+
 Columbus, OH
 
 #### Bachelor of Science, Computer & Information Science
+
 2002
 
 - Graduated Cum Laude with Honors in the Liberal Arts, 3.640 GPA
