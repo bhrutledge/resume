@@ -1,0 +1,35 @@
+mixin header(name)
+  doctype html
+  html
+    head
+      title Brian H. Rutledge
+    body
+      article
+        h1 Brian H. Rutledge
+        block
+
+mixin url(href)
+    .url
+        a(href=href) !{href}
+
+mixin section(title)
+  section
+    h2 !{title}
+    block
+
+mixin organization(name, city, description)
+  section.organization
+    h3.name !{name}
+    if city
+      .city !{city}
+    block
+
+mixin role(title, start, end)
+  section.role
+    h4.title !{title}
+    if end
+      .dates #{start}&ndash;#{end}
+    else
+      .dates #{start}
+    ul
+      block
