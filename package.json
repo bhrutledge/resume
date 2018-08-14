@@ -1,0 +1,24 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My résumé, written in Pug, then rendered to HTML and PDF.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "pug --pretty --watch *.pug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhrutledge/resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhrutledge/resume/issues"
+  },
+  "homepage": "https://github.com/bhrutledge/resume#readme",
+  "devDependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
