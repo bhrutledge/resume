@@ -4,7 +4,9 @@
   "description": "My résumé, written in Pug, then rendered to HTML and PDF.",
   "main": "index.js",
   "scripts": {
-    "watch": "pug --pretty --watch *.pug",
+    "html": "pug --pretty brian-rutledge-resume.pug",
+    "pdf": "node src/pdf.js brian-rutledge-resume.html",
+    "build": "npm run html && npm run pdf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +21,12 @@
   },
   "homepage": "https://github.com/bhrutledge/resume#readme",
   "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "pug-cli": "^1.0.0-alpha6"
+  },
+  "dependencies": {
+    "puppeteer": "^1.7.0"
   }
 }
