@@ -2,6 +2,7 @@
 
 const path = require('path');
 const puppeteer = require('puppeteer');
+const chalk = require('chalk');
 
 // TODO: Handle exceptions
 process.on('unhandledRejection', (up) => { throw up; });
@@ -13,10 +14,12 @@ process.on('unhandledRejection', (up) => { throw up; });
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
+  console.log();
+
   await page.goto(`file:${htmlPath}`);
   await page.pdf({ path: `${pdfPath}` });
 
-  console.log(`Rendered ${pdfPath}`);
+  console.log(chalk`  {gray rendered} {cyan ${pdfPath}}`);
 
   await browser.close();
 })();
