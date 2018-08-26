@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "html": "pug --pretty brian-rutledge-resume.pug",
-    "pdf": "node src/pdf.js brian-rutledge-resume.html",
+    "pdf": "src/html2pdf.js brian-rutledge-resume.html",
     "build": "npm run html && npm run pdf",
+    "watch": "onchange --initial '**/*.pug' '**/*.js' -- npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,7 @@
     "eslint": "^5.4.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
+    "onchange": "^4.1.0",
     "pug-cli": "^1.0.0-alpha6"
   },
   "dependencies": {
