@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const path = require('path');
-// TODO: eslint complains if these are devDependencies, instead of dependencies
 const puppeteer = require('puppeteer');
 const chalk = require('chalk');
 const slugify = require('@sindresorhus/slugify');

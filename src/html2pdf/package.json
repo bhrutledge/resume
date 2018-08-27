@@ -1,0 +1,21 @@
+{
+  "name": "html2pdf",
+  "version": "1.0.0",
+  "description": "Convert an HTML file to PDF with Puppeteer",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Rutledge <brian@bhrutledge.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "@sindresorhus/slugify": "^0.3.0",
+    "puppeteer": "^1.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
