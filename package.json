@@ -7,7 +7,7 @@
     "build:pdf": "html2pdf dist/index.html",
     "watch:html": "onchange 'src/*.pug' -- run-s build:html",
     "watch:pdf": "onchange 'src/html2pdf' 'dist/index.html' -- run-s build:pdf",
-    "serve:html": "live-server dist",
+    "serve:html": "live-server --watch='*.html' dist",
     "serve:pdf": "open dist/*.pdf",
     "start": "run-p watch:* serve:*",
     "test": "echo \"Error: no test specified\" && exit 1"
