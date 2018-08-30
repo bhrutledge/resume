@@ -1,0 +1,163 @@
+/* TODO: This might break the PDF */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic);
+
+/* Based on https://github.com/frankpf/gridless-boilerplate/blob/master/assets/css/main.css */
+
+/* Base structure
+    24px (1.5rem) vertical rhythm
+---------------------------------------- */
+
+html {
+    height: 100%;
+    font-size: 100%;
+    /* Force a scrollbar in non-IE */
+    overflow-y: scroll;
+    /* Prevent iOS text size adjust on orientation change */
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    color: #555;
+    font-family: 'Source Sans Pro', Tahoma, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 40rem;
+    padding: 1.5rem;
+}
+
+/* Add/remove tags as baseline grid needs */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, table,
+form, fieldset, button, menu, figure, figcaption {
+    margin: 0 0 1.5rem;
+}
+
+/* Sections, headings
+---------------------------------------- */
+
+h1, h2, h3, h4, h5, h6,
+strong {
+    color: #111;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 1.5rem; /* 24px */
+    line-height: 1;
+    margin: 0;
+}
+
+.section {
+    margin-top: 2rem;
+}
+
+.section > .title {
+    font-weight: normal;
+    font-size: 1.5rem; /* 24px */
+    line-height: 1;
+    margin: 0 0 1rem;
+    border-bottom: 1px solid #555;
+}
+
+.organization:not(:first-of-type) {
+    border-top: 1px dotted #555;
+    padding-top: 1.5rem;
+}
+
+.role {
+    margin-top: 1.5rem;
+}
+
+/* TODO: Distinguish these two */
+.organization > .name,
+.role > .title {
+    font-size: 1rem; /* 16px */
+    margin: 0;
+}
+
+/* Lists
+---------------------------------------- */
+
+ul {
+    padding-left: 1.25rem;
+}
+
+/* Links, text
+---------------------------------------- */
+
+a {
+    text-decoration: none;
+    color: #CC7E00;
+}
+
+a:visited {
+    color: #7F4F00;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+/* Better CSS outline suppression:
+ * people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active {
+    outline: none;
+}
+
+/* Media queries
+---------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 480px), print {
+    /* TODO: Contact info */
+}
+
+@media only screen and (min-width: 768px), print {
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    html {
+        font-size: 10pt;
+    }
+
+    body {
+        font-family: Tahoma, sans-serif;
+        max-width: none;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    /* TODO: Page breaks */
+    
+    /* TODO: Footnote links */
+}
+
+@page {
+    margin: 1.5cm 2cm 2cm 2cm;
+}

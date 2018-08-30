@@ -1,3 +1,3 @@
 # resume
 
-My résumé, written in Pug, then rendered to HTML and PDF.
+My resume, written in Pug, then rendered to HTML and PDF.

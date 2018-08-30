@@ -2,22 +2,13 @@ mixin header(name)
   doctype html
   html
     head
-      title Resume | !{name}
+      meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
       meta(name="viewport", content="width=device-width, initial-scale=1.0")
-      link(rel="stylesheet", href="https://unpkg.com/sanitize.css")
-      style.
-        article {
-          margin: auto;
-          max-width: 40rem;
-        }
-
-        @page {
-          margin: 1.5cm 2cm 2cm 2cm;
-        }
-
+      title Resume | !{name}
+      link(rel="stylesheet", href="https://unpkg.com/normalize.css")
+      link(rel="stylesheet", href="style.css")
     body
       article
-        h1 !{name}
         block
 
 mixin url(href)
@@ -25,9 +16,11 @@ mixin url(href)
     a(href=href) !{href}
 
 mixin section(title)
-  section
-    h2 !{title}
+  section.section
+    h2.title !{title}
     block
+
+//- TODO: header
 
 mixin organization(name, city, description)
   section.organization
