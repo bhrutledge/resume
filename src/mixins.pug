@@ -12,29 +12,28 @@ mixin header(name)
         block
 
 mixin url(href)
+  //- TODO: trim 'https://' for display
   .url
     a(href=href) !{href}
 
 mixin section(title)
   section.section
-    h2.title !{title}
+    if title
+      h2.title !{title}
     block
 
-//- TODO: header
+//- TODO: header?
 
 mixin organization(name, city, description)
   section.organization
     h3.name !{name}
     if city
-      .city !{city}
+      h4.city !{city}
     block
 
 mixin role(title, start, end)
   section.role
     h4.title !{title}
-    if end
-      .dates #{start}&ndash;#{end}
-    else
-      .dates #{start}
+    h4.dates!= start + (end ? `&ndash;` + end : '')
     ul
       block

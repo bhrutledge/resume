@@ -2,18 +2,22 @@ include mixins.pug
 
 - const name = 'Brian H. Rutledge'
 +header(name)
-  h1= name
-  .title Software Engineer
-  .city Arlington, MA
-  .phone 617-955-7782
-  .email brian@bhrutledge.com
-  +url('https://github.com/bhrutledge')
+  header.header
+    h1.name= name
+    h2.title Software Engineer
+    h3.city Arlington, MA
+    .contact
+      //- TODO: tel
+      .phone 617-955-7782
+      //- TODO: mailto
+      .email brian@bhrutledge.com
+      +url('https://github.com/bhrutledge')
 
   //- TODO: Does this need a heading?
   +section('Summary')
     p I have been writing and using software to solve problems for over 15 years. I was an embedded software engineer for three years, then left the industry in 2005 to pursue people-oriented work. I was fortunate to find it at a large bike shop, where I enjoyed the flow of a variety roles, from selling bikes to administering software. In 2014, I made the switch to professional web development, with a focus on exercising my skills with like-minded people working to speed the adoption of renewable energy. In my free time, I have expanded my software development skills by building responsive websites back-to-front. I enjoy studying software systems and explaining how they work.
 
-  +section('Key Skills and Technologies')
+  +section('Key Skills &amp; Technologies')
     p Adapting, Analyzing, Assimilating, Coding, Communicating, Debugging, Documenting, Editing, Explaining, Programming, Researching, Teaching, Testing, Troubleshooting
     p #[strong Software Development:] Python, JavaScript, SQL, Git, Linux/Unix, Data Engineering, Test-Driven Development, Virtual Machines, Docker
     p #[strong Web Development:] Django, Flask, REST APIs, Celery, Selenium, Vue, Vuex, Webpack, jQuery, Backbone, D3, Charts, Maps, HTML, SASS, CSS, BEM, Bootstrap, Markdown, AWS, Deployment, Responsive Design, Typography, Photography

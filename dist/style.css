@@ -21,7 +21,7 @@ body {
     color: #555;
     font-family: 'Source Sans Pro', Tahoma, sans-serif;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.5rem;
     margin: 0 auto;
     max-width: 40rem;
     padding: 1.5rem;
@@ -42,21 +42,29 @@ strong {
     color: #111;
 }
 
-h1 {
+.header > .name {
+    font-size: 1.5rem;
     font-weight: normal;
-    font-size: 1.5rem; /* 24px */
-    line-height: 1;
+    margin: 0;
+}
+
+.header > .title {
+    font-size: 1rem;
+    margin: 0;
+}
+.header > .city {
+    font-size: 1rem;
+    font-weight: normal;
     margin: 0;
 }
 
 .section {
-    margin-top: 2rem;
+    margin-top: calc(2 * 1.5rem);
 }
 
 .section > .title {
     font-weight: normal;
-    font-size: 1.5rem; /* 24px */
-    line-height: 1;
+    font-size: 1.5rem;
     margin: 0 0 1rem;
     border-bottom: 1px solid #555;
 }
@@ -73,8 +81,15 @@ h1 {
 /* TODO: Distinguish these two */
 .organization > .name,
 .role > .title {
-    font-size: 1rem; /* 16px */
+    font-size: 1rem;
     margin: 0;
+}
+
+.organization > .city,
+.role > .dates {
+    margin: -1.5rem 0 0;
+    font-weight: normal;
+    text-align: right;
 }
 
 /* Lists
@@ -114,8 +129,10 @@ a:hover, a:active {
 ---------------------------------------- */
 
 @media only screen and (max-width: 767px) {
-    html {
-        font-size: 14px;
+    /* Avoid overlapping dates */
+    .organization > .name,
+    .role > .title {
+        max-width: 16rem;
     }
 }
 
@@ -124,7 +141,13 @@ a:hover, a:active {
 }
 
 @media only screen and (min-width: 768px), print {
+    .contact {
+        margin-top: calc(-3 * 1.5rem);
+        text-align: right;
+    }
 }
+
+/* TODO: Columns on wide screen? */
 
 @media print {
     * {
