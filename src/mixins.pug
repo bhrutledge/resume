@@ -11,10 +11,18 @@ mixin header(name)
       article
         block
 
+mixin phone(value)
+  .phone
+    a(href=`tel:${value}`)= value
+
+mixin email(value)
+  .email
+    a(href=`mailto:${value}`)= value
+
 mixin url(href)
-  //- TODO: trim 'https://' for display
+  - const value = href.split('//')[1]
   .url
-    a(href=href) !{href}
+    a(href=href)= value
 
 mixin section(title)
   section.section

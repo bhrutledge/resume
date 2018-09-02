@@ -7,10 +7,8 @@ include mixins.pug
     h2.title Software Engineer
     h3.city Arlington, MA
     .contact
-      //- TODO: tel
-      .phone 617-955-7782
-      //- TODO: mailto
-      .email brian@bhrutledge.com
+      +phone('617-955-7782')
+      +email('brian@bhrutledge.com')
       +url('https://github.com/bhrutledge')
 
   //- TODO: Does this need a heading?
