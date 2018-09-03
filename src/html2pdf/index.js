@@ -17,7 +17,8 @@ process.on('unhandledRejection', (up) => { throw up; });
 
   console.log();
 
-  await page.goto(`file:${htmlPath}`);
+  // https://github.com/GoogleChrome/puppeteer/issues/422
+  await page.goto(`file:${htmlPath}`, { waitUntil: 'networkidle0' });
 
   const htmlTitle = await page.title();
   const pdfPath = path.join(pdfDir, `${slugify(htmlTitle)}.pdf`);
