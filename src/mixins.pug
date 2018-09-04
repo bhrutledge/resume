@@ -30,10 +30,9 @@ mixin section(title)
       h2.title !{title}
     block
 
-//- TODO: header?
-
 mixin organization(name, city, description)
   section.organization
+    //- TODO: header?
     h3.name !{name}
     if city
       h4.city !{city}
@@ -41,8 +40,7 @@ mixin organization(name, city, description)
 
 mixin role(title, start, end)
   section.role
+    //- TODO: header?
     h4.title !{title}
     h5.dates!= start + (end ? `&ndash;` + end : '')
-    if block
-      ul
-        block
+    block

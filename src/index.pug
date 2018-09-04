@@ -14,36 +14,52 @@ include mixins.pug
   +section('Professional Experience')
 
     +organization('EnergySage, Inc.', 'Boston, MA')
-      p The world&rsquo;s first and largest online marketplace for solar panel installation
+      .summary The world&rsquo;s first and largest online marketplace for solar panel installation
 
-      +role('Full Stack Web Developer', '2014', 'Present')
+      +role('Software Engineer, Data Engineer, IT Support', '2014', 'Present')
+        .tech Python, Django, Jupyter, Pandas, JavaScript, Vue, Webpack, Backbone, jQuery, D3, SASS, CSS, BEM, HTML, Bootstrap, MySQL, Celery, Git, AWS, Google Cloud, Google Apps
+        ul
+          li Full-stack web development
 
     +organization('Freelance')
 
       +role('Full Stack Web Developer', '2006', 'Present')
+        .tech Python, Django, Flask, jQuery, PHP, SQLite, HTML, CSS, Git, Apache, Linux
+        ul
+          li Designed and developed the CMS and front-end for my band&rsquo;s website
+          li Designed and developed an application for a small retailer to analyze plain-text sales reports using interactive tables
+          li Designed and developed brochure websites for friends and family
 
     +organization('Belmont Wheelworks', 'Belmont, MA')
-      p Bicycle sales and service, catering to all levels of cyclists in greater Boston
+      .summary Bicycle sales and service, catering to all levels of cyclists in greater Boston
 
       +role('IT Operations Manager, Bicycle Fitter, Buyer, Salesperson', '2006', '2014')
-
-    +organization('Darwin&rsquo;s Ltd.', 'Cambridge, MA')
-      p Independent coffee and sandwich shop serving Harvard Square
-
-      +role('Buyer, Sandwich Maker, Barista', '2005', '2006')
+        .tech Python, SQL, jQuery, CSS, Google Apps
+        ul
+          li Configured the business website CMS, developed a front-end theme, and developed scripts to synchronize inventory
+          li Developed reporting scripts to streamline customer relationship and inventory management
 
     +organization('Applied Innovation Inc.', 'Dublin, OH')
-      p Network management hardware and software for the telecommunications industry
+      .summary Network management hardware and software for the telecommunications industry
 
-      +role('Software Engineer', '2001', '2005')
+      +role('Software Engineer, Software Engineering Intern', '2001', '2005')
+        .tech Assembly, C, C++, Java, Python, Perl, Perforce
+        ul
+          li Assumed sole development responsibility for a troubled network device, turning it into a major source of income
+          li Designed and developed a web application for automated regression testing of network devices
 
     +organization('The Ohio State University', 'Columbus, OH')
 
-      +role('System Operations Staff, Lab Consultant, Grader', '1999', '2002')
+      +role('System Operations Staff, Unix Lab Consultant, Grader', '1999', '2002')
+        .tech C++, Java, XML, Solaris
+        ul
+          li Designed and developed a graphical FAQ editor
+          li Assisted students and graded work for honors introductory software development course
 
   +section('Education')
 
     +organization('The Ohio State University', 'Columbus, OH')
 
       +role('Bachelor of Science, Computer &amp; Information Science', '2002')
-        li Graduated Cum Laude with Honors in the Liberal Arts, 3.640 GPA
+        ul
+          li Graduated Cum Laude with Honors in the Liberal Arts, 3.640 GPA
