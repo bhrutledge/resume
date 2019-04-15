@@ -1,4 +1,4 @@
-mixin header(name)
+mixin body(name)
   doctype html
   html
     head
@@ -30,17 +30,21 @@ mixin section(title)
       h2.title !{title}
     block
 
-mixin organization(name, city, description)
+//- TODO: These might be overkill
+
+mixin organization(name, city, summary)
   section.organization
-    //- TODO: header?
-    h3.name !{name}
-    if city
-      h4.city !{city}
+    header.header
+      h3.name !{name}
+      if city
+        .city !{city}
+      if summary
+        .summary !{summary}
     block
 
 mixin role(title, start, end)
   section.role
-    //- TODO: header?
-    h4.title !{title}
-    h5.dates!= start + (end ? `&ndash;` + end : '')
+    header.header
+      h4.title !{title}
+      .dates!= start + (end ? `&ndash;` + end : '')
     block

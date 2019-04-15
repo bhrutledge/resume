@@ -1,11 +1,11 @@
 include mixins.pug
 
 - const name = 'Brian H. Rutledge'
-+header(name)
++body(name)
   header.header
     h1.name= name
     h2.title Software Engineer
-    h3.city Arlington, MA
+    .city Arlington, MA
     .contact
       +phone('617-955-7782')
       +email('brian@bhrutledge.com')
@@ -13,48 +13,45 @@ include mixins.pug
 
   +section('Professional Experience')
 
-    +organization('EnergySage, Inc.', 'Boston, MA')
-      .summary The world&rsquo;s first and largest online marketplace for solar panel installation
+    +organization('EnergySage, Inc.', 'Boston, MA', 'The world&rsquo;s first and largest online marketplace for solar panel installation')
 
       +role('Software Engineer, Data Engineer, IT Support', '2014', 'Present')
-        .tech Python, Django, Jupyter, Pandas, JavaScript, Vue, Webpack, Backbone, jQuery, D3, SASS, CSS, BEM, HTML, Bootstrap, MySQL, Celery, Git, AWS, Google Cloud, Google Apps
         ul
           li Full-stack web development
+          li Python, Django, Jupyter, Pandas, JavaScript, Vue, Webpack, Backbone, jQuery, D3, SASS, CSS, BEM, HTML, Bootstrap, MySQL, Celery, Git, AWS, Google Cloud, Google Apps
 
     +organization('Freelance')
 
       +role('Full Stack Web Developer', '2006', 'Present')
-        .tech Python, Django, Flask, jQuery, PHP, SQLite, HTML, CSS, Git, Apache, Linux
         ul
           li Designed and developed the CMS and front-end for my band&rsquo;s website
           li Designed and developed an application for a small retailer to analyze plain-text sales reports using interactive tables
           li Designed and developed brochure websites for friends and family
+          li Python, Django, Flask, jQuery, PHP, SQLite, HTML, CSS, Git, Apache, Linux
 
-    +organization('Belmont Wheelworks', 'Belmont, MA')
-      .summary Bicycle sales and service, catering to all levels of cyclists in greater Boston
+    +organization('Belmont Wheelworks', 'Belmont, MA', 'Bicycle sales and service, catering to all levels of cyclists in greater Boston')
 
       +role('IT Operations Manager, Bicycle Fitter, Buyer, Salesperson', '2006', '2014')
-        .tech Python, SQL, jQuery, CSS, Google Apps
         ul
           li Configured the business website CMS, developed a front-end theme, and developed scripts to synchronize inventory
           li Developed reporting scripts to streamline customer relationship and inventory management
+          li Python, SQL, jQuery, CSS, Google Apps
 
-    +organization('Applied Innovation Inc.', 'Dublin, OH')
-      .summary Network management hardware and software for the telecommunications industry
+    +organization('Applied Innovation Inc.', 'Dublin, OH', 'Network management hardware and software for the telecommunications industry')
 
       +role('Software Engineer, Software Engineering Intern', '2001', '2005')
-        .tech Assembly, C, C++, Java, Python, Perl, Perforce
         ul
           li Assumed sole development responsibility for a troubled network device, turning it into a major source of income
           li Designed and developed a web application for automated regression testing of network devices
+          li Assembly, C, C++, Java, Python, Perl, Perforce
 
     +organization('The Ohio State University', 'Columbus, OH')
 
       +role('System Operations Staff, Unix Lab Consultant, Grader', '1999', '2002')
-        .tech C++, Java, XML, Solaris
         ul
           li Designed and developed a graphical FAQ editor
           li Assisted students and graded work for honors introductory software development course
+          li C++, Java, XML, Solaris
 
   +section('Education')
 
