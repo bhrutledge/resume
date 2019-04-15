@@ -62,10 +62,8 @@ article > .header > .title {
     border-bottom: 1px solid #555;
 }
 
-.organization:not(:first-of-type) {
-    border-top: 1px dotted #555;
-    margin-top: .75rem;
-    padding-top: .75rem;
+.role {
+    margin-bottom: 1.5rem;
 }
 
 /* TODO: Distinguish these two */

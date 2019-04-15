@@ -32,19 +32,19 @@ mixin section(title)
 
 //- TODO: These might be overkill
 
-mixin organization(name, city, summary)
-  section.organization
-    header.header
-      h3.name !{name}
-      if city
-        .city !{city}
-      if summary
-        .summary !{summary}
-    block
 
 mixin role(title, start, end)
   section.role
     header.header
-      h4.title !{title}
+      h3.title !{title}
       .dates!= start + (end ? `&ndash;` + end : '')
     block
+
+mixin organization(name, city, summary)
+  section.organization
+    header.header
+      h4.name !{name}
+      if city
+        .city !{city}
+      if summary
+        .summary !{summary}
