@@ -68,11 +68,6 @@ article > .header > .title {
     padding-top: .75rem;
 }
 
-.organization > .header,
-.role > .header {
-    display: flex;
-}
-
 /* TODO: Distinguish these two */
 .organization > .header > .name,
 .role > .header > .title {
@@ -85,6 +80,8 @@ article > .header > .title {
 }
 
 .organization > .header > .summary {
+    /* TODO: Figure out how to display the summary */
+    display: none;
     font-style: italic;
 }
 
@@ -135,6 +132,12 @@ a:hover, a:active {
 }
 
 @media only screen and (min-width: 768px), print {
+    /* TODO: Fix this hack to inline header elements */
+    .organization > .header,
+    .role > .header {
+        display: flex;
+    }
+
     .contact {
         margin-top: calc(-3 * 1.5rem);
         text-align: right;
