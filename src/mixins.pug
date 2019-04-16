@@ -8,7 +8,7 @@ mixin body(name)
       link(rel="stylesheet", href="https://unpkg.com/normalize.css")
       link(rel="stylesheet", href="style.css")
     body
-      article
+      article.resume
         block
 
 mixin phone(value)
@@ -31,7 +31,6 @@ mixin section(title)
     block
 
 //- TODO: These might be overkill
-
 
 mixin role(title, start, end)
   section.role

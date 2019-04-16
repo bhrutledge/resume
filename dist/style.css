@@ -41,13 +41,13 @@ strong {
     color: #111;
 }
 
-article > .header > .name {
+.resume > .header > .name {
     font-size: 1.5rem;
     margin: 0;
 }
 
 /* Same as .role > .title */
-article > .header > .title {
+.resume > .header > .title {
     font-size: 1rem;
     margin: 0;
 }
@@ -78,8 +78,6 @@ article > .header > .title {
 }
 
 .organization > .header > .summary {
-    /* TODO: Figure out how to display the summary */
-    display: none;
     font-style: italic;
 }
 
@@ -130,15 +128,18 @@ a:hover, a:active {
 }
 
 @media only screen and (min-width: 768px), print {
-    /* TODO: Fix this hack to inline header elements */
-    .organization > .header,
-    .role > .header {
-        display: flex;
+    .resume > .header {
+        min-height: calc(3 * 1.5rem);
     }
 
     .contact {
         margin-top: calc(-3 * 1.5rem);
         text-align: right;
+    }
+
+    .organization > .header > *,
+    .role > .header > * {
+        display: inline;
     }
 }
 
