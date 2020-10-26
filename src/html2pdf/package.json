@@ -9,13 +9,13 @@
   "author": "Brian Rutledge <brian@bhrutledge.com>",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "@sindresorhus/slugify": "^0.3.0",
-    "puppeteer": "^1.7.0"
+    "chalk": "^4.1.0",
+    "@sindresorhus/slugify": "^1.1.0",
+    "puppeteer": "^5.4.0"
   },
   "devDependencies": {
-    "eslint": "^5.4.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint": "^7.12.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1"
   }
 }
