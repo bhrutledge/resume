@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "My resume, written in Pug, then rendered to HTML and PDF.",
   "scripts": {
-    "build:html": "pug --pretty src/index.pug --out dist",
+    "build:html": "pug --pretty src/index.pug --out .",
     "watch:html": "onchange 'src/*.pug' -- run-s build:html",
-    "serve:html": "live-server --watch='*.html,*.css' dist",
-    "build:pdf": "html2pdf dist/index.html",
-    "watch:pdf": "onchange 'src/html2pdf' 'dist/index.html' 'dist/*.css' -- run-s build:pdf",
-    "serve:pdf": "open dist/*.pdf",
+    "serve:html": "live-server --watch='*.html,*.css' .",
+    "build:pdf": "html2pdf index.html",
+    "watch:pdf": "onchange 'src/html2pdf' 'index.html' '*.css' -- run-s build:pdf",
+    "serve:pdf": "open *.pdf",
     "start": "run-p watch:* serve:*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
